@@ -48,11 +48,13 @@
 		}
 
 		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 8rem;
+			height: 8rem;
+			line-height: 8rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
+			background-image: url('../../images/sun_edited.jpg');
+			background-size: 8rem;
 
 			.icon {
 				&:before {
@@ -70,8 +72,8 @@
 
 			.inner {
 				@include vendor('transition', (
-					'max-height #{_duration(intro)} ease',
-					'padding #{_duration(intro)} ease',
+					'max-height #{_duration(resume)} ease',
+					'padding #{_duration(resume)} ease',
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
@@ -200,6 +202,8 @@
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
+				background-image: url('../../images/sun_edited.jpg');
+				background-size: 4.75rem;
 
 				.icon {
 					&:before {
