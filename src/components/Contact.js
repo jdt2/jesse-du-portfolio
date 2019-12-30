@@ -12,7 +12,7 @@ class Contact extends Component {
                 style={{ display: 'none' }}
             >
                 <h2 className="major">Contact</h2>
-                <form method="post" action="#">
+                <form method="post" action="#" data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />

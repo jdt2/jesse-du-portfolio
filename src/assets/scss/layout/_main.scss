@@ -167,10 +167,16 @@
 				}
 
 				.card {
+					flex-direction: column;
+					
 					.cardImage {
-						display: inline;
+						margin-bottom: 2rem;
 					}
 
+				}
+
+				.projects {
+					flex-direction: column;
 				}
 
 				/* .embed {

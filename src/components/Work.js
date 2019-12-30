@@ -27,7 +27,7 @@ class Work extends Component {
                 </span> */}
                 <div className="card">
                     <div className="content">
-                        <h4>Web Application Developer Intern - SimplePart</h4>
+                        <h4>Web Application Developer Intern - SimplePart LLC</h4>
                         <h3></h3>
                         <p>
                             I handle full stack development but primarily focus on backend.
@@ -177,7 +177,7 @@ class Work extends Component {
                         <p>
                             One of the many features in AutomataZoo is the Automata-based file carver,
                         which is <strong>10x</strong> faster and more accurate than state-of-the-art
-                                                                                                                                                                    file carvers (Scalpel and bulk_extractor, namely).
+                                                                                                                                                                        file carvers (Scalpel and bulk_extractor, namely).
                     </p>
                     </div>
 
