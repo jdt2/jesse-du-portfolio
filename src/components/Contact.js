@@ -36,26 +36,18 @@ class Contact extends Component {
                 </form>
                 <ul className="icons">
                     <li>
-                        <a
-                            href="https://twitter.com/HuntaroSan"
-                            className="icon fa-twitter"
-                        >
-                            <span className="label">Twitter</span>
+                        <a href="mailto:jessejesse10@gmail.com" className="icon fa-envelope">
+                            <span className="label">Email</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://codebushi.com" className="icon fa-facebook">
-                            <span className="label">Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://codebushi.com" className="icon fa-instagram">
-                            <span className="label">Instagram</span>
+                        <a href="https://www.linkedin.com/in/jesse-du-189b20191/" className="icon fa-linkedin">
+                            <span className="label">LinkedIn</span>
                         </a>
                     </li>
                     <li>
                         <a
-                            href="https://github.com/codebushi/gatsby-starter-dimension"
+                            href="https://github.com/jdt2"
                             className="icon fa-github"
                         >
                             <span className="label">GitHub</span>

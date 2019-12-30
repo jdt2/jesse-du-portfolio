@@ -73,6 +73,16 @@
 			}
 		}
 
+		&.clear {
+			content: none;
+		}
+
+		&.applogo {
+			border-radius: 22.5%;
+			width: 10rem;
+			height: 10rem;
+		}
+
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;

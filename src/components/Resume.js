@@ -16,7 +16,7 @@ class Resume extends Component {
             <img src={pic01} alt="" />
           </span> */}
                 <p style={{ textAlign: 'center' }}>
-                    If the embed doesn't work below, see <a href="https://www.dropbox.com/s/6cx7w4574sepzga/20191220_Du_Jesse_Resume.pdf?dl=0">here</a>.
+                    If the embed doesn't work below, try this <a href="https://www.dropbox.com/s/6cx7w4574sepzga/20191220_Du_Jesse_Resume.pdf?dl=0">link</a>.
           </p>
                 <iframe
                     className="embed"

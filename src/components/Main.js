@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Projects from './Projects'
+import Work from './Work'
 import Resume from './Resume'
 import About from './About'
 import Contact from './Contact'
@@ -30,19 +30,19 @@ class Main extends React.Component {
           close={close}
         />
 
-        <Projects
+        <Work
           article={this.props.article}
           articleTimeout={this.props.articleTimeout}
           onCloseArticle={this.props.onCloseArticle}
           close={close}
         />
 
-        <Experience
+        {/* <Experience
           article={this.props.article}
           articleTimeout={this.props.articleTimeout}
           onCloseArticle={this.props.onCloseArticle}
           close={close}
-        />
+        /> */}
 
         <About
           article={this.props.article}
