@@ -11,7 +11,7 @@ const Header = (props) => (
                 <h1>Jesse Du</h1>
                 <p>Computer Science Major at Georgia Tech specializing in intelligence.<br />
                     interested in a variety of software engineering
-                    fields from web application<br /> development to computer architecture</p>
+                    fields from web application<br /> development to computer architecture.</p>
                 <ul className="icons">
                     <li>
                         <a href="https://www.linkedin.com/in/jesse-du-189b20191/" className="icon fa-linkedin">

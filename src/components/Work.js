@@ -30,12 +30,12 @@ class Work extends Component {
                         <h4>Web Application Developer Intern - SimplePart LLC</h4>
                         <h3></h3>
                         <p>
-                            I handle full stack development but primarily focus on backend.
-                            Currently working on a variety of technologies such as SQL, ASP.NET, C#, LESS, and JavaScript.
+                            I handle full stack development but primarily focus on the backend.
+                            I'm currently working with a variety of technologies such as SQL, ASP.NET, C#, LESS, and JavaScript.
                             In addition, I'm contributing to new features that are released on the platform such as Ebay integration.
                             The development environment is structured around Agile and holds biweekly development team retros
                             to review and reflect on code changes.
-                            Changes are deployed onto top Original Equipment Manufacturer dealers like Toyota, Subaru, Volkswagen, BMW, Audi, and Lexus
+                            Changes are deployed onto top Original Equipment Manufacturer (<strong>OEM</strong>) dealers like Toyota, Subaru, Volkswagen, BMW, Audi, and Lexus
                             to over <strong>5</strong> million users.
 
                         </p>
@@ -51,7 +51,8 @@ class Work extends Component {
                     <div className="content">
                         <h4>Undergraduate Research Assistant - Machine Learning Group @ GT</h4>
                         <p>
-                            I research with two Ph.D. students and <a href="https://www.cc.gatech.edu/~lsong/">Prof. Le Song</a> with a focus on Inductive Logic Programming (ILP) and deep learning.
+                            I research with two Ph.D. students (<a href="http://people.math.gatech.edu/~xchen648/">Xinshi Chen</a> and <a href="http://www.binghongchen.net/">Binghong Chen</a>) under <a href="https://www.cc.gatech.edu/~lsong/">Prof. Le Song</a>
+                            with a focus on Inductive Logic Programming (<strong>ILP</strong>) and <strong>deep learning</strong>.
                             Our current project is applying machine learning applications to the Inductive General Game Playing problem set,
                             a traditionally ILP-based problem. The problem involves learning the rules to general games like Sudoku and Tic Tac Toe
                             given allowed or restricted moves in the game environment. The paper describing the problem can be seen <a href="https://arxiv.org/abs/1906.09627">here</a>.
@@ -71,8 +72,8 @@ class Work extends Component {
                         <p>
                             I developed two apps for a local contracting company in my hometown.
                             Both are detailed below, but for a short synopsis, the first was a scheduler app for entrepreneurs
-                            and the second was a company app for the contractor that would give a free estimate from
-                            a snapshot of a home improvement problem.
+                            and the second was a company app for the contractor that gives a free estimate from
+                            a picture of a home improvement problem.
                         </p>
                     </div>
                     <div className="cardImage">
@@ -86,11 +87,11 @@ class Work extends Component {
                     <div className="content">
                         <h4>Researcher - Center for Automata Processing @ UVA</h4>
                         <p>
-                            I did research for three summers under Jack Wadden and Prof. Kevin Skadron with a focus on
+                            I did research for three summers under <a href="http://www.cs.virginia.edu/~jpw8bd/">Jack Wadden</a> and <a href="http://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a> with a focus on
                             exploring the capabilities of Micron's Automata Processor, the first non-von Neumann
                             processor that accelerates non-deterministic finite automata (NFA) hardware processing.
                             I explored optimizations and applications to the Automata Processor,
-                            namely a literal string matching engine optimization that would skip over redundant NFA strings
+                            namely a literal string matching engine optimization that skips over redundant NFA strings
                             and, more notably, the Automata-based file carver. This file carver retrieved files from given raw bit data
                             of a hard drive faster and more accurate than state-of-the-art file carvers like Scalpel and bulk_extractor (see more below).
                         </p>
@@ -177,7 +178,7 @@ class Work extends Component {
                         <p>
                             One of the many features in AutomataZoo is the Automata-based file carver,
                         which is <strong>10x</strong> faster and more accurate than state-of-the-art
-                                                                                                                                                                        file carvers (Scalpel and bulk_extractor, namely).
+                                                                                                                                                                                                                                file carvers (Scalpel and bulk_extractor, namely).
                     </p>
                     </div>
 

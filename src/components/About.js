@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import pic03 from '../images/pic03.jpg'
+//import pic03 from '../images/pic03.jpg'
 import brick_edited from '../images/brick_edited.jpg'
 import bg_atlanta from '../images/bg_atlanta.jpg'
 
