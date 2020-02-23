@@ -149,7 +149,7 @@ class Work extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://apps.apple.com/us/app/eday/id1449660016" className="icon fa-apple">
+                                <a href="https://apps.apple.com/us/app/advantage-home-contracting/id1466536680" className="icon fa-apple">
                                     <span className="label">Apple Store</span>
                                 </a>
                             </li>
@@ -178,7 +178,7 @@ class Work extends Component {
                         <p>
                             One of the many features in AutomataZoo is the Automata-based file carver,
                         which is <strong>10x</strong> faster and more accurate than state-of-the-art
-                                                                                                                                                                                                                                file carvers (Scalpel and bulk_extractor, namely).
+                                                                                                                                                                                                                                    file carvers (Scalpel and bulk_extractor, namely).
                     </p>
                     </div>
 

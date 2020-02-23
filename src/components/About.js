@@ -61,8 +61,8 @@ class About extends Component {
                     /> */}
                     <div className="content">
                         <p>
-                            In my free time, I like to play the accordion, learn pen spinning tricks,
-                            inline skating, and spending time with friend and family.
+                            In my free time, I like to play the accordion, play on a basketball team,
+                            inline skating, and spending time with friends and family.
                         </p>
                     </div>
                 </div>
