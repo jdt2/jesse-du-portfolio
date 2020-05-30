@@ -16,12 +16,12 @@ class Resume extends Component {
             <img src={pic01} alt="" />
           </span> */}
                 <p style={{ textAlign: 'center' }}>
-                    If the embed doesn't work below, try this <a href="https://www.dropbox.com/s/fi0alz6v8xbdytu/20200117_Du_Jesse_Resume.pdf?dl=0">link</a>.
+                    If the embed doesn't work below, try this <a href="https://www.dropbox.com/s/46a0nt8m3zta937/Jesse_Du_Resume_20200529.pdf?dl=0">link</a>.
           </p>
                 <iframe
                     className="embed"
                     title="resume"
-                    src={"https://www.dropbox.com/s/fi0alz6v8xbdytu/20200117_Du_Jesse_Resume.pdf?raw=1#view=FitH"}
+                    src={"https://www.dropbox.com/s/46a0nt8m3zta937/Jesse_Du_Resume_20200529.pdf?raw=1#view=FitH"}
                 />
                 {this.props.close}
             </article>

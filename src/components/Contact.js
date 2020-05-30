@@ -43,7 +43,7 @@ class Contact extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jesse-du-189b20191/" className="icon fa-linkedin">
+                        <a href="https://www.linkedin.com/in/du-jesse/" className="icon fa-linkedin">
                             <span className="label">LinkedIn</span>
                         </a>
                     </li>

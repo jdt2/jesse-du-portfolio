@@ -14,7 +14,7 @@ const Header = (props) => (
                     fields from web application<br /> development to computer architecture.</p>
                 <ul className="icons">
                     <li>
-                        <a href="https://www.linkedin.com/in/jesse-du-189b20191/" className="icon fa-linkedin">
+                        <a href="https://www.linkedin.com/in/du-jesse/" className="icon fa-linkedin">
                             <span className="label">LinkedIn</span>
                         </a>
                     </li>
