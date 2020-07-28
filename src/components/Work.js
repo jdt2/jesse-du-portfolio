@@ -8,6 +8,8 @@ import simplepart from '../images/simplepart_icon.png'
 import machinelearning from '../images/machine_learning_gt.jpg'
 import advantage_logo from '../images/advantage_home_logo.jpg'
 import uva_logo from '../images/uva_logo.png'
+import knightscope from '../images/knightscope.png'
+import slack from '../images/slack.png'
 
 class Work extends Component {
     render() {
@@ -21,23 +23,74 @@ class Work extends Component {
             >
                 <h2 className="major">Work</h2>
 
-                <h3 className="major">Current Work</h3>
+                <h3 className="major">Current</h3>
+                <div className="card">
+                    <div className="content">
+                        <h4>Robotics Software Engineer Intern - Knightscope Inc.</h4>
+                        <p>
+                            <ul>
+                                <li>Developing autonomous security features on <strong>100+</strong> robots across the U.S. using ROS, Ansible, Python, and C++</li>
+                                <li>Released software solving 3-year-old connectivity issues with robots through Ansible and Bash</li>
+                                <li>Rescued business critical communication server and prevented company-wide robot outage after faulty update</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="cardImage">
+                        <img
+                            className="image clear"
+                            src={knightscope}
+                        />
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="content">
+                        <h4>Founding Software Engineer - Stealth Mode Startup</h4>
+                        <p>
+                            <ul>
+                                <li>Worked directly with founder to ideate and build a prototype from scratch and signed up <strong>first</strong> customer</li>
+                                <li>Built and designed React.js dashboard platform with Cytoscape.js graph visualization and responsive charts</li>
+                                <li>Developed using Firebase and Google Cloud Functions with integration from Slack API data</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="cardImage">
+                        <img
+                            className="image clear"
+                            src={slack}
+                        />
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="content">
+                        <h4>Researcher - Center for Automata Processing @ UVA</h4>
+                        <p>
+                            <ul>
+                                <li>Worked on major C++ and computer architecture projects under Chair of Computer Science Prof. <a href="http://www.cs.virginia.edu/~skadron/">Kevin Skadron</a></li>
+                                <li>Built digital forensic file carver with Automata processor and Intel’s Hyperscan more accurate and <strong>50x</strong> faster than state-of-the-art applications</li>
+                                <li>Co-authored international conference paper <a href="http://www.iiswc.org/iiswc2020/index.html">(IISWC)</a> including patent pending file carving application</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="cardImage">
+                        <img
+                            className="image clear"
+                            src={uva_logo}
+                        />
+                    </div>
+                </div>
                 {/* <span className="image main">
                     <img src={pic02} alt="" />
                 </span> */}
+                <h3 className="major">Past</h3>
                 <div className="card">
                     <div className="content">
                         <h4>Web Application Developer Intern - SimplePart LLC</h4>
-                        <h3></h3>
                         <p>
-                            I handle full stack development but primarily focus on the backend.
-                            I'm currently working with a variety of technologies such as SQL, ASP.NET, C#, LESS, and JavaScript.
-                            In addition, I'm contributing to new features that are released on the platform such as Ebay integration.
-                            The development environment is structured around Agile and holds biweekly development team retros
-                            to review and reflect on code changes.
-                            Changes are deployed onto top Original Equipment Manufacturer (<strong>OEM</strong>) dealers like Toyota, Subaru, Volkswagen, BMW, Audi, and Lexus
-                            to over <strong>5</strong> million users.
-
+                            <ul>
+                                <li>Developed full-stack features using ASP.NET, C#, LESS, JavaScript, and SQL Server on SimplePart's <strong>5 million</strong> user e-commerce platform for top OEM dealers like Toyota, Volkswagen, BMW, and Audi </li>
+                                <li>Contributed to projects like Ebay payment integration and product details overhaul netting thousands in revenue</li>
+                                <li>Collaborated in Agile software development through biweekly sprints and development team retros </li>
+                            </ul>
                         </p>
                     </div>
                     <div className="cardImage">
@@ -51,11 +104,10 @@ class Work extends Component {
                     <div className="content">
                         <h4>Undergraduate Research Assistant - Machine Learning Group @ GT</h4>
                         <p>
-                            I research with two Ph.D. students (<a href="http://people.math.gatech.edu/~xchen648/">Xinshi Chen</a> and <a href="http://www.binghongchen.net/">Binghong Chen</a>) under <a href="https://www.cc.gatech.edu/~lsong/">Prof. Le Song</a>
-                            with a focus on Inductive Logic Programming (<strong>ILP</strong>) and <strong>deep learning</strong>.
-                            Our current project is applying machine learning applications to the Inductive General Game Playing problem set,
-                            a traditionally ILP-based problem. The problem involves learning the rules to general games like Sudoku and Tic Tac Toe
-                            given allowed or restricted moves in the game environment. The paper describing the problem can be seen <a href="https://arxiv.org/abs/1906.09627">here</a>.
+                            <ul>
+                                <li>Created a new angle to the protein structure prediction problem orthogonal to existing AlphaFold pipeline under <a href="https://www.cc.gatech.edu/~lsong/">Prof. Le Song</a> and Ph.D. student <a href="http://xinshi-chen.com/">Xinshi Chen</a></li>
+                                <li>Applied deep learning models on RCSB Protein Data Bank to predict protein contact maps using Python</li>
+                            </ul>
                         </p>
                     </div>
                     <div className="cardImage">
@@ -65,41 +117,20 @@ class Work extends Component {
                         />
                     </div>
                 </div>
-                <h3 className="major">Previous Work</h3>
                 <div className="card">
                     <div className="content">
                         <h4>React Native Mobile Developer - Freelancing</h4>
                         <p>
-                            I developed two apps for a local contracting company in my hometown.
-                            Both are detailed below, but for a short synopsis, the first was a scheduler app for entrepreneurs
-                            and the second was a company app for the contractor that gives a free estimate from
-                            a picture of a home improvement problem.
+                            <ul>
+                                <li>Launched, designed, built, and maintained two iOS apps for local company with React Native and Firebase</li>
+                                <li>Created entrepreneurial planner app (500+ downloads) and home contracting app for online free estimates</li>
+                            </ul>
                         </p>
                     </div>
                     <div className="cardImage">
                         <img
                             className="image clear"
                             src={advantage_logo}
-                        />
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="content">
-                        <h4>Researcher - Center for Automata Processing @ UVA</h4>
-                        <p>
-                            I did research for three summers under <a href="http://www.cs.virginia.edu/~jpw8bd/">Jack Wadden</a> and <a href="http://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a> with a focus on
-                            exploring the capabilities of Micron's Automata Processor, the first non-von Neumann
-                            processor that accelerates non-deterministic finite automata (NFA) hardware processing.
-                            I explored optimizations and applications to the Automata Processor,
-                            namely a literal string matching engine optimization that skips over redundant NFA strings
-                            and, more notably, the Automata-based file carver. This file carver retrieved files from given raw bit data
-                            of a hard drive faster and more accurate than state-of-the-art file carvers like Scalpel and bulk_extractor (see more below).
-                        </p>
-                    </div>
-                    <div className="cardImage">
-                        <img
-                            className="image clear"
-                            src={uva_logo}
                         />
                     </div>
                 </div>
@@ -177,7 +208,7 @@ class Work extends Component {
                         </ul>
                         <p>
                             One of the many features in AutomataZoo is the Automata-based file carver,
-                        which is <strong>10x</strong> faster and more accurate than state-of-the-art
+                        which is <strong>50x</strong> faster and more accurate than state-of-the-art
                                                                                                                                                                                                                                     file carvers (Scalpel and bulk_extractor, namely).
                     </p>
                     </div>
