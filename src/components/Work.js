@@ -9,7 +9,7 @@ import machinelearning from '../images/machine_learning_gt.jpg'
 import advantage_logo from '../images/advantage_home_logo.jpg'
 import uva_logo from '../images/uva_logo.png'
 import knightscope from '../images/knightscope.png'
-import slack from '../images/slack.png'
+import akooda from '../images/akooda_icon.png'
 
 class Work extends Component {
     render() {
@@ -26,12 +26,13 @@ class Work extends Component {
                 <h3 className="major">Current</h3>
                 <div className="card">
                     <div className="content">
-                        <h4>Robotics Software Engineer Intern - Knightscope Inc.</h4>
+                        <h4>Robotics Software Engineer - Knightscope Inc.</h4>
                         <p>
                             <ul>
-                                <li>Developing autonomous security features on <strong>100+</strong> robots across the U.S. using ROS, Ansible, Python, and C++</li>
-                                <li>Released software solving 3-year-old connectivity issues with robots through Ansible and Bash</li>
-                                <li>Rescued business critical communication server and prevented company-wide robot outage after faulty update</li>
+                                <li>Currently working as full-time engineer while a full-time student; transitioned from summer internship; serving as main technical interview lead for new engineer candidates </li>
+                                <li>Led project to implement fever detection using FDA-approved thermal cameras, leading to $300,000 incremental revenue for the company using ROS, Ansible, Python, and C++</li>
+                                <li>Restructured audio system to reduce robot downtime and achieved cost savings of $210,000 across the entire fleet of 100+ autonomous security robots</li>
+                                <li>Rescued critical communication server after faulty update and saved over 120,000 messages of robot information</li>
                             </ul>
                         </p>
                     </div>
@@ -44,30 +45,32 @@ class Work extends Component {
                 </div>
                 <div className="card">
                     <div className="content">
-                        <h4>Founding Software Engineer - Stealth Mode Startup</h4>
+                        <h4>Founding Software Engineer - Akooda Inc. (Stealth Mode Startup)</h4>
                         <p>
                             <ul>
-                                <li>Worked directly with founder to ideate and build a prototype from scratch and signed up <strong>first</strong> customer</li>
-                                <li>Built and designed React.js dashboard platform with Cytoscape.js graph visualization and responsive charts</li>
-                                <li>Developed using Firebase and Google Cloud Functions with integration from Slack API data</li>
+                                <li>Worked directly with Harvard Business School alumnus technical founder to ideate and build a prototype from scratch; signed up first paying customer and helped raise series A funding</li>
+                                <li>Built and designed React.js platform with Firebase, Google Cloud Functions, Slack API data, and Cytoscape.js</li>
                             </ul>
                         </p>
                     </div>
                     <div className="cardImage">
                         <img
                             className="image clear"
-                            src={slack}
+                            src={akooda}
                         />
                     </div>
                 </div>
+                {/* <span className="image main">
+                    <img src={pic02} alt="" />
+                </span> */}
+                <h3 className="major">Past</h3>
                 <div className="card">
                     <div className="content">
-                        <h4>Researcher - Center for Automata Processing @ UVA</h4>
+                        <h4>Undergraduate Researcher - Center for Automata Processing @ UVA</h4>
                         <p>
                             <ul>
-                                <li>Worked on major C++ and computer architecture projects under Chair of Computer Science Prof. <a href="http://www.cs.virginia.edu/~skadron/">Kevin Skadron</a></li>
-                                <li>Built digital forensic file carver with Automata processor and Intel’s Hyperscan more accurate and <strong>50x</strong> faster than state-of-the-art applications</li>
-                                <li>Co-authored international conference paper <a href="http://www.iiswc.org/iiswc2020/index.html">(IISWC)</a> including patent pending file carving application</li>
+                                <li>Built digital forensic file carver with Automata processor and Intel’s Hyperscan, resulting in more accurate and 25x faster than state-of-the-art applications using C++ with Chair of Computer Science Prof. Kevin Skadron</li>
+                                <li>Filed patent on carver application as co-inventor; co-authored international conference paper <a href="http://www.iiswc.org/iiswc2020/index.html">(IISWC)</a></li>
                             </ul>
                         </p>
                     </div>
@@ -78,17 +81,30 @@ class Work extends Component {
                         />
                     </div>
                 </div>
-                {/* <span className="image main">
-                    <img src={pic02} alt="" />
-                </span> */}
-                <h3 className="major">Past</h3>
+                <div className="card">
+                    <div className="content">
+                        <h4>Undergraduate Research Assistant - Center for Machine Learning at Georgia Tech</h4>
+                        <p>
+                            <ul>
+                                <li>Applied deep learning models and convolutional neural networks to predict protein contact maps using Python</li>
+                                <li>Optimized accuracy of distance mapping for the <a href="https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery">AlphaFold</a> pipeline from Google’s DeepMind, focusing on protein structure prediction problem</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="cardImage">
+                        <img
+                            className="image clear"
+                            src={machinelearning}
+                        />
+                    </div>
+                </div>
                 <div className="card">
                     <div className="content">
                         <h4>Web Application Developer Intern - SimplePart LLC</h4>
                         <p>
                             <ul>
-                                <li>Developed full-stack features using ASP.NET, C#, LESS, JavaScript, and SQL Server on SimplePart's <strong>5 million</strong> user e-commerce platform for top OEM dealers like Toyota, Volkswagen, BMW, and Audi </li>
-                                <li>Contributed to projects like Ebay payment integration and product details overhaul netting thousands in revenue</li>
+                                <li>Developed full-stack features using ASP.NET, C#, LESS, JavaScript, and SQL Server on SimplePart's 5 million user e-commerce platform for top OEM dealers like Toyota, Volkswagen, BMW, and Audi</li>
+                                <li>Contributed to projects like Ebay payment integration and product details overhaul for over $100,000 in revenue</li>
                                 <li>Collaborated in Agile software development through biweekly sprints and development team retros </li>
                             </ul>
                         </p>
@@ -97,23 +113,6 @@ class Work extends Component {
                         <img
                             className="image clear"
                             src={simplepart}
-                        />
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="content">
-                        <h4>Undergraduate Research Assistant - Machine Learning Group @ GT</h4>
-                        <p>
-                            <ul>
-                                <li>Created a new angle to the protein structure prediction problem orthogonal to existing AlphaFold pipeline under <a href="https://www.cc.gatech.edu/~lsong/">Prof. Le Song</a> and Ph.D. student <a href="http://xinshi-chen.com/">Xinshi Chen</a></li>
-                                <li>Applied deep learning models on RCSB Protein Data Bank to predict protein contact maps using Python</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div className="cardImage">
-                        <img
-                            className="image clear"
-                            src={machinelearning}
                         />
                     </div>
                 </div>
